@@ -3,7 +3,7 @@ const backgrounds = require('./src/backgrounds');
 const modifiers = require('./src/modifiers');
 const styles = require('./src/styles');
 
-class StyledConsole {
+class StylishConsole {
     constructor() {
         this.colors = colors;
         this.backgrounds = backgrounds;
@@ -37,4 +37,4 @@ class StyledConsole {
     }
 }
 
-module.exports = StyledConsole;
+module.exports = StylishConsole;

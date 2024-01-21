@@ -1,6 +1,6 @@
-# Styled Console Logger
+# Stylish Console
 
-The Styled Console Logger is a light logging library that allows you to add style and formatting to your console output. With this logger, you can enhance the readability and visual appeal of your logs, making it easier to analyze and debug your applications.
+The Stylish Console is a light logging library that allows you to add style and formatting to your console output. With this logger, you can enhance the readability and visual appeal of your logs, making it easier to analyze and debug your applications.
 
 Whether you are building a command-line interface (CLI) tool, a server-side application, or any other software project, the Styled Console Logger can be a valuable addition to your development toolkit.
 
@@ -21,30 +21,24 @@ Let's dive in and explore the capabilities of the Styled Console Logger!
 
 ## 🤖 Getting Started
 
-Clone this repository to get started.
+Install the package to get started:
 
 ```bash
-git clone https://github.com/wesleybertipaglia/styled-console
+npm install stylish-console
 ```
 
-That's it! You are now ready to enhance the readability and visual appeal of your console logs with the Styled Console Logger.
+That's it! You are now ready to enhance the readability and visual appeal of your console logs with the Stylish Console.
 
 ## 💻 Usage
 
-1. To use the Styled Console Logger in your project, follow these simple steps:
+1. Import the StyledConsole class in your code:
 
 ```bash
-npm install styled-console
+const StylishConsole = require('stylish-console');
+const logger = new StylishConsole();
 ```
 
-2. Import the StyledConsole class in your code:
-
-```bash
-const StyledConsole = require('styled-console');
-const logger = new StyledConsole();
-```
-
-3. Start using the logger to print styled logs:
+2. Start using the logger to print styled logs:
 
 ```javascript
 logger.success("This is a success message.");

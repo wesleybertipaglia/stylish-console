@@ -9,7 +9,7 @@ Thank you for your interest in contributing to this repository. Your contributio
 2. **Clone the Repository**: Clone your forked repository to your local machine:
 
    ```
-   git clone https://github.com/wesleybertipaglia/styled-console
+   git clone https://github.com/wesleybertipaglia/stylish-console
    ```
 
 3. **Create a New Branch**: Create a new branch for your contribution:
