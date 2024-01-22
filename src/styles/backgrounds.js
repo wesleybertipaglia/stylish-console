@@ -8,4 +8,4 @@ const backgrounds = {
     white: `\x1b[47m`
 };
 
-module.exports = backgrounds;
+export default backgrounds;

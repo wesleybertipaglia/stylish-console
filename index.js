@@ -1,7 +1,7 @@
-const colors = require('./src/colors');
-const backgrounds = require('./src/backgrounds');
-const modifiers = require('./src/modifiers');
-const styles = require('./src/styles');
+import colors from "./src/styles/colors.js";
+import backgrounds from "./src/styles/backgrounds.js";
+import modifiers from "./src/styles/modifiers.js";
+import styles from "./src/styles/styles.js";
 
 class StylishConsole {
     constructor() {
@@ -32,9 +32,10 @@ class StylishConsole {
         this.log(`[INFO] ${message}`, this.styles.info);
     }
 
-    custom(message, style) {
-        this.log(message, style);
+    custom(message, styles) {
+        this.log(message, styles);
     }
 }
 
-module.exports = StylishConsole;
+export { colors, backgrounds, modifiers, styles };
+export default StylishConsole;

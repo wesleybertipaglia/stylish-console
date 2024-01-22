@@ -8,4 +8,4 @@ const modifiers = {
     strikethrough: `\x1b[9m`
 };
 
-module.exports = modifiers;
+export default modifiers;
